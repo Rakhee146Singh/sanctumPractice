@@ -92,4 +92,14 @@ class UserController extends Controller
             'status' => 'success'
         ], 200);
     }
+
+    public function user(Request $request)
+    {
+        dd('user');
+    }
+
+    public function admin(Request $request)
+    {
+        dd('admin');
+    }
 }
